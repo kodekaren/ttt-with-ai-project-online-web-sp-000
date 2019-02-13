@@ -26,8 +26,7 @@ if play_again == "yes"
   game = Game.new
   until game.won?
     game.play
-else
-game.end
+
 
   end
 end
