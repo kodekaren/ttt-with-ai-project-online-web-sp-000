@@ -27,6 +27,7 @@ if play_again == "yes"
   until game.won?
     game.play
 else
-end
+game.end
+
   end
 end
