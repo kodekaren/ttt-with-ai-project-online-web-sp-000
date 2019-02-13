@@ -22,11 +22,11 @@ end
 
 puts "Would you like to play again?"
 play_again = gets.strip
-if play_again == "no"
-game.end
-elsif play_again.downcase == "yes"
+if play_again == "yes"
   game = Game.new
   until game.won?
     game.play
+else
+end
   end
 end
